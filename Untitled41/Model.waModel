@@ -1,0 +1,101 @@
+{
+	"toJSON": true,
+	"extraProperties": {
+		"version": "2",
+		"classes": {
+			"DataClass2": {
+				"panelColor": "#70CCC2",
+				"panel": {
+					"isOpen": "true",
+					"position": {
+						"X": 309,
+						"Y": 126
+					}
+				}
+			},
+			"_1DataClass2": {
+				"panelColor": "#B8CCE4",
+				"panel": {
+					"isOpen": "true",
+					"position": {
+						"X": 299,
+						"Y": 286
+					},
+					"pathVisible": true
+				}
+			},
+			"": {
+				"panelColor": "#B2A2C7",
+				"panel": {
+					"isOpen": "true",
+					"position": {
+						"X": 25,
+						"Y": 20
+					}
+				}
+			}
+		},
+		"model": {
+			"scriptMode": "manual",
+			"workspaceLeft": 0,
+			"workspaceTop": 0
+		}
+	},
+	"dataClasses": [
+		{
+			"collectionName": "_1DataClass2Collection",
+			"className": "_1DataClass2",
+			"attributes": [
+				{
+					"name": "ID",
+					"kind": "storage",
+					"type": "long",
+					"autosequence": "true",
+					"unique": "true",
+					"primKey": "true"
+				},
+				{
+					"name": "attribute1",
+					"scope": "public",
+					"type": "string",
+					"kind": "storage"
+				},
+				{
+					"name": "attribute2",
+					"scope": "public",
+					"type": "string",
+					"kind": "storage"
+				}
+			]
+		},
+		{
+			"collectionName": "DataClass2Collection",
+			"className": "DataClass2",
+			"attributes": [
+				{
+					"name": "ID",
+					"kind": "storage",
+					"type": "long",
+					"autosequence": "true",
+					"unique": "true",
+					"primKey": "true"
+				}
+			]
+		},
+		{
+			"collectionName": "Collection",
+			"className": "",
+			"attributes": [
+				{
+					"name": "ID",
+					"kind": "storage",
+					"type": "long",
+					"autosequence": "true",
+					"unique": "true",
+					"primKey": "true"
+				}
+			]
+		}
+	],
+	"type": []
+}
